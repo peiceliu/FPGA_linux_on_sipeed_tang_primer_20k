@@ -1,0 +1,184 @@
+[
+ {
+  "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/sipeed_tang_primer_20k.v",
+  "InstLine" : 21,
+  "InstName" : "sipeed_tang_primer_20k",
+  "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/sipeed_tang_primer_20k.v",
+  "ModuleLine" : 21,
+  "ModuleName" : "sipeed_tang_primer_20k",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/sipeed_tang_primer_20k.v",
+    "InstLine" : 11845,
+    "InstName" : "VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc",
+    "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "InstLine" : 1524,
+      "InstName" : "bufferCC_4",
+      "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "ModuleLine" : 13305,
+      "ModuleName" : "BufferCC"
+     },
+     {
+      "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "InstLine" : 1530,
+      "InstName" : "bufferCC_5",
+      "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "ModuleLine" : 13281,
+      "ModuleName" : "BufferCC_1"
+     },
+     {
+      "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "InstLine" : 1536,
+      "InstName" : "customDebug_debugBridge_logic_jtagBridge",
+      "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "ModuleLine" : 13070,
+      "ModuleName" : "JtagBridgeNoTap",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+        "InstLine" : 13144,
+        "InstName" : "flowCCByToggle_1",
+        "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+        "ModuleLine" : 14753,
+        "ModuleName" : "FlowCCByToggle",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+          "InstLine" : 14778,
+          "InstName" : "inputArea_target_buffercc",
+          "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+          "ModuleLine" : 14825,
+          "ModuleName" : "BufferCC_3"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "InstLine" : 1556,
+      "InstName" : "customDebug_debugBridge_logic_debugger",
+      "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "ModuleLine" : 12983,
+      "ModuleName" : "SystemDebugger"
+     },
+     {
+      "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "InstLine" : 1576,
+      "InstName" : "clint_logic",
+      "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "ModuleLine" : 12731,
+      "ModuleName" : "BmbClint"
+     },
+     {
+      "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "InstLine" : 1597,
+      "InstName" : "cores_0_cpu_logic_cpu",
+      "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "ModuleLine" : 5166,
+      "ModuleName" : "VexRiscv",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+        "InstLine" : 7300,
+        "InstName" : "IBusCachedPlugin_cache",
+        "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+        "ModuleLine" : 14431,
+        "ModuleName" : "InstructionCache"
+       },
+       {
+        "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+        "InstLine" : 7350,
+        "InstName" : "dataCache_1",
+        "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+        "ModuleLine" : 13433,
+        "ModuleName" : "DataCache",
+        "SubInsts" : [
+         {
+          "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+          "InstLine" : 13728,
+          "InstName" : "ways_0_data",
+          "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/Ram_1w_1rs_Intel.v",
+          "ModuleLine" : 2,
+          "ModuleName" : "Ram_1w_1rs"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "InstLine" : 1634,
+      "InstName" : "bufferCC_6",
+      "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "ModuleLine" : 5142,
+      "ModuleName" : "BufferCC_2"
+     },
+     {
+      "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "InstLine" : 1640,
+      "InstName" : "clintWishboneBridge_logic_bridge",
+      "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "ModuleLine" : 5085,
+      "ModuleName" : "WishboneToBmb"
+     },
+     {
+      "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "InstLine" : 1664,
+      "InstName" : "plicWishboneBridge_logic_bridge",
+      "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "ModuleLine" : 5028,
+      "ModuleName" : "WishboneToBmb_1"
+     },
+     {
+      "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "InstLine" : 1688,
+      "InstName" : "customDebug_debugBridge_bmb_decoder",
+      "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "ModuleLine" : 4874,
+      "ModuleName" : "BmbDecoder"
+     },
+     {
+      "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "InstLine" : 1718,
+      "InstName" : "iArbiter_bmb_decoder",
+      "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "ModuleLine" : 4834,
+      "ModuleName" : "BmbDecoder_1"
+     },
+     {
+      "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "InstLine" : 1742,
+      "InstName" : "peripheralBridge_logic",
+      "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "ModuleLine" : 4610,
+      "ModuleName" : "BmbToWishbone"
+     },
+     {
+      "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "InstLine" : 1774,
+      "InstName" : "peripheralBridge_bmb_arbiter",
+      "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+      "ModuleLine" : 4468,
+      "ModuleName" : "BmbArbiter",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+        "InstLine" : 4539,
+        "InstName" : "memory_arbiter",
+        "ModuleFile" : "C:/Users/lpc/Desktop/sipeed_tang_primer_20k/sipeed_tang_primeri_20k/fpga_project/src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v",
+        "ModuleLine" : 13329,
+        "ModuleName" : "StreamArbiter"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

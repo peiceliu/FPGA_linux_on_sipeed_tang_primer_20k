@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="sipeed_tang_primer_20k" Register="1992" Alu="375" Lut="3106" Bsram="20" Ssram="128">
+    <SubModule name="VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc" Register="886" Alu="16" Lut="575" Ssram="8">
+        <SubModule name="bufferCC_4" Register="2"/>
+        <SubModule name="bufferCC_5" Register="2"/>
+        <SubModule name="clint_logic" Register="163" Alu="127" Lut="50"/>
+        <SubModule name="cores_0_cpu_logic_cpu" Register="1932" Alu="391" Lut="3473" Dsp="6" Bsram="1" Ssram="16">
+            <SubModule name="IBusCachedPlugin_cache" Register="66" Alu="25" Lut="48" Bsram="3"/>
+            <SubModule name="dataCache_1" Register="114" Alu="75" Lut="322" Bsram="1">
+                <SubModule name="ways_0_data" Lut="4" Bsram="4"/>
+            </SubModule>
+        </SubModule>
+        <SubModule name="clintWishboneBridge_logic_bridge" Register="1" Lut="3"/>
+        <SubModule name="plicWishboneBridge_logic_bridge" Register="1" Lut="1"/>
+        <SubModule name="peripheralBridge_logic" Register="114" Alu="14" Lut="14"/>
+        <SubModule name="peripheralBridge_bmb_arbiter" Lut="2">
+            <SubModule name="memory_arbiter" Register="3" Lut="43"/>
+        </SubModule>
+    </SubModule>
+</Module>

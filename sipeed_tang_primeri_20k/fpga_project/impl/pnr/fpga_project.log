@@ -1,0 +1,19 @@
+Reading netlist file: "C:\Users\lpc\Desktop\sipeed_tang_primer_20k\sipeed_tang_primeri_20k\fpga_project\impl\gwsynthesis\fpga_project.vg"
+Parsing netlist file "C:\Users\lpc\Desktop\sipeed_tang_primer_20k\sipeed_tang_primeri_20k\fpga_project\impl\gwsynthesis\fpga_project.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Users\lpc\Desktop\sipeed_tang_primer_20k\sipeed_tang_primeri_20k\fpga_project\src\sipeed_tang_primer_20k.cst"
+Physical Constraint parsed completed
+Running placement......
+ERROR  (PR2028) : The constrained location is useless in current package
+ERROR  (PR2017) : 'led4' cannot be placed according to constraint, for the location is a dedicated pin (READY)
+ERROR  (PR2028) : The constrained location is useless in current package
+ERROR  (PR2017) : 'led5' cannot be placed according to constraint, for the location is a dedicated pin (DONE)
+ERROR  (PR2028) : The constrained location is useless in current package
+ERROR  (PR2017) : 'btn_n0' cannot be placed according to constraint, for the location is a dedicated pin (SSPI)
+ERROR  (PR2028) : The constrained location is useless in current package
+ERROR  (PR2017) : 'spisdcard_miso' cannot be placed according to constraint, for the location is a dedicated pin (SSPI)
+Generate file "C:\Users\lpc\Desktop\sipeed_tang_primer_20k\sipeed_tang_primeri_20k\fpga_project\impl\pnr\fpga_project.pin.html" completed
+Generate file "C:\Users\lpc\Desktop\sipeed_tang_primer_20k\sipeed_tang_primeri_20k\fpga_project\impl\pnr\fpga_project.rpt.html" completed
+Generate file "C:\Users\lpc\Desktop\sipeed_tang_primer_20k\sipeed_tang_primeri_20k\fpga_project\impl\pnr\fpga_project.rpt.txt" completed
+Sat Oct 07 12:37:10 2023
+

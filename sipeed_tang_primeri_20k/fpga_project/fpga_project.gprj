@@ -1,0 +1,18 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
+    <FileList>
+        <File path="src/Ram_1w_1rs_Intel.v" type="file.verilog" enable="1"/>
+        <File path="src/VexRiscvLitexSmpCluster_Cc1_Iw32Is4096Iy1_Dw32Ds4096Dy1_ITs4DTs4_Ood_Wm_Hb1_Rvc.v" type="file.verilog" enable="1"/>
+        <File path="src/sipeed_tang_primer_20k.v" type="file.verilog" enable="1"/>
+        <File path="src/sipeed_tang_primer_20k.cst" type="file.cst" enable="1"/>
+        <File path="src/sipeed_tang_primer_20k.sdc" type="file.sdc" enable="1"/>
+        <File path="src/sipeed_tang_primer_20k.fs" type="file.other" enable="1"/>
+        <File path="src/sipeed_tang_primer_20k_mem.init" type="file.other" enable="1"/>
+        <File path="src/sipeed_tang_primer_20k_rom.init" type="file.other" enable="1"/>
+        <File path="src/sipeed_tang_primer_20k_sram.init" type="file.other" enable="1"/>
+    </FileList>
+</Project>

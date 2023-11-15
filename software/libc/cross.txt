@@ -1,0 +1,16 @@
+[binaries]
+c     = 'riscv64-unknown-elf-gcc'
+ar    = 'riscv64-unknown-elf-gcc-ar'
+as    = 'riscv64-unknown-elf-as'
+nm    = 'riscv64-unknown-elf-gcc-nm'
+strip = 'riscv64-unknown-elf-strip'
+
+[host_machine]
+system     = 'unknown'
+cpu_family = 'riscv'
+cpu        = 'vexriscv'
+endian     = 'little'
+
+[built-in options]
+c_args      = [ '-Os', '-march=rv32i2p0_mac', '-mabi=ilp32', '-D__vexriscv__', '-DUART_POLLING', '-g3', '-no-pie', '-fomit-frame-pointer', '-Wall', '-fno-builtin', '-fno-stack-protector', '-I/home/liupeice/Desktop/pythondata-software-picolibc/pythondata_software_picolibc/data/newlib/libc/tinystdio', '-I/home/liupeice/Desktop/pythondata-software-picolibc/pythondata_software_picolibc/data/newlib/libc/include', '-I/home/liupeice/Desktop/litex/litex/soc/software/libbase', '-I/home/liupeice/Desktop/litex/litex/soc/software/include', '-I/home/liupeice/Desktop/litex/litex/soc/software', '-I/home/liupeice/Desktop/linux-on-litex-vexriscv/build/sipeed_tang_primer_20k/software/include', '-I/home/liupeice/Desktop/linux-on-litex-vexriscv/build/sipeed_tang_primer_20k/software/include/../libc', '-I/home/liupeice/Desktop/litex/litex/soc/cores/cpu/vexriscv_smp', '-fexceptions', '-Wpragmas', ]
+c_link_args = [ '-nostdlib', '-nodefaultlibs', '-Wl,--no-dynamic-linker', '-Wl,--build-id=none', '-MD', '-MP', '-Os', '-march=rv32i2p0_mac', '-mabi=ilp32', '-D__vexriscv__', '-DUART_POLLING', '-g3', '-no-pie', '-fomit-frame-pointer', '-Wall', '-fno-builtin', '-fno-stack-protector', '-I/home/liupeice/Desktop/pythondata-software-picolibc/pythondata_software_picolibc/data/newlib/libc/tinystdio', '-I/home/liupeice/Desktop/pythondata-software-picolibc/pythondata_software_picolibc/data/newlib/libc/include', '-I/home/liupeice/Desktop/litex/litex/soc/software/libbase', '-I/home/liupeice/Desktop/litex/litex/soc/software/include', '-I/home/liupeice/Desktop/litex/litex/soc/software', '-I/home/liupeice/Desktop/linux-on-litex-vexriscv/build/sipeed_tang_primer_20k/software/include', '-I/home/liupeice/Desktop/linux-on-litex-vexriscv/build/sipeed_tang_primer_20k/software/include/../libc', '-I/home/liupeice/Desktop/litex/litex/soc/cores/cpu/vexriscv_smp', '-fexceptions', '-Wpragmas', '-L/home/liupeice/Desktop/linux-on-litex-vexriscv/build/sipeed_tang_primer_20k/software/include', ]
